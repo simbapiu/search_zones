@@ -1,0 +1,359 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-color: #6c7686;
+}
+
+.container {
+  header {
+    height: 310px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1) 15%), url("../../assets/images/bg-header.jpg"), no-repeat;
+    background-size: cover;
+
+    .login {
+      position: relative;
+      width: 335px;
+      height: 35px;
+      margin: auto;
+      padding: 5px 15px;
+
+      .login-container {
+        float: right;
+        color: #fff;
+        border: solid 1px #fff;
+
+        .login-icon {
+          float: left;
+          padding: 5px 10px;
+        }
+
+        .login-icon:hover {
+          background-color: #fff;
+          color: #000;
+        }
+
+        .login-link {
+          float: left;
+          padding: 5px 10px;
+          box-shadow: -1px 0 0 0 #fff;
+        }
+
+        .login-link:hover {
+          background-color: #fff;
+          color: #000;
+        }
+      }
+
+      @media screen and (min-width: 376px) {
+        width: 1020px;
+      }
+    }
+
+    .searcher {
+      width: 335px;
+      margin: auto;
+      height: 190px;
+      padding: 0 20px;
+
+      .slogan-searcher {
+        width: 273px;
+        padding: 30px;
+        color: #fff;
+        font-size: large;
+        font-weight: bold;
+        text-align: center;
+
+        @media screen and (min-width: 376px) {
+          width: 900px;
+          margin: auto;
+          font-size: 30px;
+          padding-top: 125px;
+        }
+      }
+
+      .searcher-zones {
+        width: 335px;
+
+        .searcher-zones-container {
+          background-color: #fff;
+          .zones {
+            float: left;
+            input {
+              height: 20px;
+              border-style: none;
+              padding: 10px;
+              width: 265px;
+
+              @media screen and (min-width: 376px) {
+                width: 370px;
+              }
+            }
+          }
+
+          .development-check {
+            width: 140px;
+            padding: 10px;
+            height: 20px;
+            display: none;
+
+            @media screen and (min-width: 376px) {
+              display: inline;
+              float: left;
+              color: #858585;
+              font-size: 16px;
+            }
+          }
+
+          .zone-select {
+            display: none;
+
+            @media screen and (min-width: 376px) {
+
+              display: inline;
+              float: left;
+              position: relative;
+
+              select {
+                box-shadow: -1px 0 0 0 #858585;
+                width: 150px;
+                height: 40px;
+                border: none;
+                padding: 10px;
+                background: transparent;
+                color: #858585;
+                -moz-appearance: none;
+                -webkit-appearance: none;
+              }
+            }
+          }
+
+          .searcher-icon {
+            background-color: dodgerblue;
+            color: #fff;
+            padding: 10px 17px 11px;
+            float: left;
+            height: 19px;
+            width: 15px;
+
+            @media screen and (min-width: 376px) {
+              display: inline;
+            }
+          }
+
+          .searcher-icon:hover {
+            background-color: #177bff;
+          }
+
+          @media screen and (min-width: 376px) {
+            width: 900px;
+          }
+        }
+
+        @media screen and (min-width: 376px) {
+          width: 899px;
+          margin: auto;
+          padding-top: 25px;
+          display: flex;
+          flex-wrap: nowrap;
+        }
+      }
+
+      .term-conditions {
+        padding: 70px 0;
+        width: 335px;
+        text-align: center;
+
+        a {
+          color: #fff;
+          font-size: 14px;
+
+          @media screen and (min-width: 376px) {
+            text-align: center;
+            font-size: 18px;
+          }
+        }
+
+        @media screen and (min-width: 376px) {
+          width: 1100px;
+        }
+      }
+
+      @media screen and (min-width: 376px) {
+        width: 1100px;
+      }
+    }
+
+    @media screen and (min-width: 376px) {
+      margin: auto;
+      width: 1200px;
+      height: 500px;
+      background-position: center;
+    }
+  }
+
+  main {
+    background-color: #fff;
+
+    .steps {
+      width: 355px;
+      margin: 0 10px;
+
+
+      .container-steps {
+        .search-information {
+          color: #343a40;
+          padding: 25px 10px 5px 10px;
+          text-align: center;
+          font-weight: bold;
+          font-size: 20px;
+
+          @media screen and (min-width: 376px) {
+            font-size: 22px;
+          }
+        }
+
+        .search-steps {
+          width: 355px;
+          padding-bottom: 20px;
+
+          .card {
+            padding: 5px;
+            width: 345px;
+
+            .card-container {
+              margin: 5px;
+              padding-bottom: 20px;
+
+              .card-image {
+                width: 200px;
+                margin: auto;
+
+                img {
+                  width: 200px;
+
+                  @media screen and (min-width: 376px) {
+                    width: 230px;
+                  }
+                }
+
+                @media screen and (min-width: 376px) {
+                  width: 230px;
+                }
+              }
+
+              .card-title {
+                color: #343a40;
+                text-align: center;
+                font-weight: bold;
+
+                @media screen and (min-width: 376px) {
+                  font-size: 20px;
+                }
+              }
+
+              .card-description {
+                padding-top: 5px;
+                color: #343a40;
+                text-align: center;
+                font-size: 12px;
+              }
+            }
+            @media screen and (min-width: 376px) {
+              width: 300px;
+              float: left;
+              margin: 10px;
+            }
+          }
+
+          @media screen and (min-width: 376px) {
+            width: 990px;
+            margin: auto;
+          }
+        }
+      }
+      @media screen and (min-width: 376px) {
+        width: 1200px;
+        height: 400px;
+        margin: auto;
+      }
+    }
+
+    .about-app {
+      background-color: #ececec;
+
+      .container-app {
+        margin: 10px 10px 0 10px;
+
+        .about-title {
+          margin: 10px;
+          padding-top: 30px;
+          text-align: center;
+          color: #343a40;
+        }
+
+        .about-description {
+          padding: 0 5px;
+          color: #6c7686;
+          text-align: center;
+          font-size: 20px;
+
+          @media screen and (min-width: 376px){
+            width: 400px;
+            margin: auto;
+          }
+        }
+
+        .about-link {
+          width: 335px;
+          margin: auto;
+
+          button {
+            height: 50px;
+            border-style: none;
+            padding: 10px;
+            background-color: dodgerblue;
+            color: #fff;
+            font-size: 16px;
+            width: 335px;
+            cursor: pointer;
+          }
+        }
+
+        .about-image {
+          padding-top: 20px;
+          margin: auto;
+          width: 220px;
+          height: 127px;
+
+          img {
+            width: 220px;
+
+            @media screen and (min-width: 376px) {
+              width: 500px;
+            }
+          }
+
+          @media screen and (min-width: 376px) {
+            width: 500px;
+            height: 288px;
+          }
+        }
+      }
+
+      @media screen and (min-width: 376px) {
+        margin-top: 25px;
+      }
+    }
+  }
+
+  footer {
+    height: 60px;
+    background-color: #000;
+  }
+
+  @media screen and (min-width: 376px){
+    width: 1200px;
+    margin: auto;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.75);
+  }
+}
